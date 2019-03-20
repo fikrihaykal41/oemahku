@@ -1,0 +1,122 @@
+header {
+    margin-top:71px;
+    padding: 2.5em 0;
+    background-color: hsl(214, 100%, 75%);
+    margin-bottom: 50px;
+}
+
+.navbar{
+    background-color: hsl(214, 100%, 75%);
+    transition: 0.5s;
+}
+
+.shadow{
+    transition: 0.5s;
+}
+
+body{
+    background-color: azure;
+}
+
+section{
+    background-color: bisque;
+}
+
+footer {
+    margin-top: 100px;
+    padding: 1em 0;
+    background-color: hsl(214, 100%, 75%);
+}
+
+#all-features{
+    margin-top: 50px;
+}
+
+.nav-link {
+    font-family: 'Josefin Sans', sans-serif;
+    color: white !important;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#main-content-tittle {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: rgb(102, 102, 102);
+}
+
+#see-all{
+    margin-top: 25px !important;
+    text-decoration: underline !important;
+    color: rgb(43, 200, 95) !important;
+}
+
+#see-all:hover{
+    color: rgb(32, 155, 32) !important;
+}
+
+.img-fav {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.img-fav img{
+    transition: .5s ease;
+}
+
+.img-fav img:hover {
+    transition: .5s ease;
+    transform: scale(1.2);
+}
+
+.masking{
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+
+#tittle {
+    font-family: 'Indie Flower', cursive;
+    font-weight: bolder;
+    font-size: 72px;
+    color: white;
+    letter-spacing: 20px;
+}
+
+#intro {
+    text-align: justify;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    letter-spacing: 2px;
+}
+
+a {
+    font-family: 'Josefin Sans', sans-serif !important;
+    color: black !important;
+    text-decoration: none !important;
+    outline: none !important;
+    outline-color: none !important;
+    outline-style: none !important;
+}
+
+.caption-img {
+    color: rgb(102, 102, 102);
+    text-align: justify;
+}
+
+.house-name{
+    color: rgb(102, 102, 102);
+}
+
+#contact-us {
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+}
+
+.cap-contact-us {
+    color: white !important;
+}
+
+.sm-img {
+    margin-bottom: 5px;
+}
