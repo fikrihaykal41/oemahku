@@ -1,6 +1,12 @@
+/* dektsop */
+*{
+    max-width: 100%;
+    max-height: 100%;
+}
+
 header {
     margin-top:71px;
-    padding: 2.5em 0;
+    padding: 5em 0;
     background-color: hsl(214, 100%, 75%);
     margin-bottom: 50px;
 }
@@ -12,6 +18,29 @@ header {
 
 .shadow{
     transition: 0.5s;
+}
+
+button{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold !important;
+}
+
+button:active{
+    outline: none !important;
+    outline-color: none !important;
+    outline-style: none !important;
+    outline-width: none !important;
+}
+
+button:focus{
+    outline: none !important;
+    outline-color: none !important;
+    outline-style: none !important;
+    outline-width: none !important;
+}
+
+.btn-warning{
+    color: white !important;
 }
 
 body{
@@ -120,3 +149,5 @@ a {
 .sm-img {
     margin-bottom: 5px;
 }
+/* eof dektsop */
+

@@ -6,14 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Oemah Ku</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-        crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
     <link rel="shortcut icon" href="assets/images/mansion.png" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Josefin+Sans" rel="stylesheet">
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/home.css">
@@ -38,16 +41,24 @@
                         <a class="nav-link" href="home.html">Home</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="#">Catalog</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="#">About Us</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Contact Us</a>
                     </li>
                 </ul>
+                <div class="btn-group" role="group" aria-label="Basic example">
+                    <button type="button" class="btn btn-primary">Log In</button>
+                    <button type="button" class="btn btn-warning">Sign Up</button>
+                </div>
             </div>
         </div>
     </nav>
     <!-- eof navbar -->
+    {{!-- header content --}}
     <div class="container">
         <div class="row" id="header-content">
             <div class="col-sm-6 col-md-6" id="kiri">
@@ -61,15 +72,18 @@
                     Jadi, dapat dipertanggung jawabkan secara hukum.
                 </p>
             </div>
-            <div class="col-sm-6 col-md-6" id="kanan">
-                <img class="float-right" src="assets/images/mansion.png" alt="home-logo" srcset="">
+            <div class="col-sm-6 col-md-6 text-center" id="kanan">
+                <img id="home-logo" src="assets/images/mansion.png" alt="home-logo" srcset="">
             </div>
         </div>
     </div>
+    {{!-- eof header content --}}
 </header>
 
 <body>
+    {{!-- main content --}}
     <div class="container">
+        {{!-- promoted --}}
         <section id="recomended" class="shadow p-3 mb-5 bg-white rounded">
             <h1 id="main-content-tittle">Promoted</h1>
             <div class="main-content row text-center">
@@ -115,15 +129,6 @@
                     </p>
                     <button type="button" class="btn btn-outline-success btn-block btn-lg">Details</button>
                 </div>
-            </div>
-            <div class="text-center">
-                <a id="see-all" href="#">See All</a>
-            </div>
-        </section>
-
-        <section id="all-features" class="shadow p-3 mb-5 bg-white rounded">
-            <h1 id="main-content-tittle">All Features</h1>
-            <div class="main-content row text-center">
                 <div class="col-md-4 img-fav">
                     <div class="masking">
                         <a href="#"><img src="assets/images/mansion.svg" alt="bali" height="240px"></a>
@@ -133,7 +138,7 @@
                     </a>
                     <p class="caption-img">
                         <font style="font-weight: bold; color: rgb(255, 196, 0)">Rate: A+</font> <br>
-                        <font style="font-weight: bold; color: yellowgreen">Price: Rp 1.000.000.000</font> <br>
+                        <font style="font-weight: bold; color: yellowgreen">Price: Rp 3.000.000.000</font> <br>
                         <b>Description:</b> Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                     </p>
                     <button type="button" class="btn btn-outline-success btn-block btn-lg">Details</button>
@@ -147,7 +152,7 @@
                     </a>
                     <p class="caption-img">
                         <font style="font-weight: bold; color: rgb(255, 196, 0)">Rate: A+</font> <br>
-                        <font style="font-weight: bold; color: yellowgreen">Price: Rp 1.000.000.000</font> <br>
+                        <font style="font-weight: bold; color: yellowgreen">Price: Rp 2.000.000.000</font> <br>
                         <b>Description:</b> Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                     </p>
                     <button type="button" class="btn btn-outline-success btn-block btn-lg">Details</button>
@@ -167,11 +172,10 @@
                     <button type="button" class="btn btn-outline-success btn-block btn-lg">Details</button>
                 </div>
             </div>
-            <div class="text-center">
-                <a id="see-all" href="#">See All</a>
-            </div>
         </section>
+        {{!-- eof promoted --}}
     </div>
+    {{!-- eof main content --}}
 </body>
 
 <footer>
